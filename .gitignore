@@ -1,0 +1,15 @@
+# Private Python environment and Python cache files
+.venv/
+__pycache__/
+*.py[cod]
+
+# Large generated training artifacts
+outputs/
+data/
+*.pt
+*.pth
+*.ckpt
+
+# WSL and notebook temporary files
+WSL swap file.vhdx
+.ipynb_checkpoints/
